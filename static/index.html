@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tetris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="game-title">       
+            <h1>TETRIS</h1>
+            <h6>*-*-*-*-*-*-*-*-*</h6>
+        </div>
+        <div id="game-over" class="hide">
+            <h1>GAME OVER</h1>      
+            <button id="play-again-btn" class="tetris-btn">PLAY AGAIN</button>
+        </div>
+        <button id="start-button" class="tetris-btn">START</button>
+        <div id="loading" class="hide">Loading...</div>
+        <div id="game-container" class="hide">
+            <div id="main-game">
+            </div>
+            <div class="right-box">
+                <p>NEXT</p>
+                <div id="tetromino-preview"></div>
+            </div>
+            <div class="right-box">
+                <div>
+                    <p>SCORE</p>
+                    <p id="score">0</p>
+                </div>
+                <div>
+                    <p>LEVEL</p>
+                    <p id="level">1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+</html>

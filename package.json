@@ -1,0 +1,26 @@
+{
+  "name": "tetris-es6-pixijs",
+  "version": "1.0.0",
+  "description": "Showcase of OOP posibilities with pixijs and es6",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node webpack/devServer",
+    "build": "babel-node webpack/compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Kania",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "clean-webpack-plugin": "^0.1.10",
+    "copy-webpack-plugin": "^3.0.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "pixi.js": "^4.3.2"
+  }
+}
