@@ -2,6 +2,16 @@
 
 Tetris written in Javascript/ES6 using **[Pixi.js](http://www.pixijs.com/)** and OOP practices.
 
+Funcionalities:
+* tetromino falling down to the bottom of board
+* player can move tetromino horizontally by pressing **left** and **right** keys
+* player can accelerate falling tetromino by pressing **down** key
+* player can rotate tetromino by 90 degreess by pressing **up** key
+* lines filled with blocks disappearing
+* for every line filled with blocks player get points
+* increasing levels by collecting points
+* higher level - faster falling tetromino
+
 ## Setup
 
 Clone the repository:
@@ -10,7 +20,7 @@ Clone the repository:
 git clone https://github.com/rybeusz/tetris-es6-pixijs.git
 ```
 
-Install the (dev)dependencies:
+Install the dependencies:
 
 ```bash
 npm install
