@@ -20,7 +20,7 @@ Clone the repository:
 git clone https://github.com/rybeusz/tetris-es6-pixijs.git
 ```
 
-Install the (dev)dependencies:
+Install the dependencies:
 
 ```bash
 npm install
